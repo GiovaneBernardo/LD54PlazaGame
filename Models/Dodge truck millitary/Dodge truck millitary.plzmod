@@ -1,0 +1,309 @@
+Model: Dodge truck millitary
+ModelFilePath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models/Dodge truck millitary/sources\Dodge truck millitary.fbx
+ModelUuid: 13186974945464691464
+UseTangent: false
+MainObject:
+  - Entity: 15147845954858981784
+    Uuid: 15147845954858981784
+    Name: Dodge truck millitary
+    ParentID: 8087256409539085487
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 13804969269935880620
+    Uuid: 13804969269935880620
+    Name: body
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [0.002643466, 0.170228839, 0.238482952]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: body0
+        MeshName: body
+        MeshUUID: 4994060939102510934
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 8037447096863089365
+    Uuid: 8037447096863089365
+    Name: steering_wheel
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [0.891258061, 0.800467014, 1.43085146]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: steering_wheel1
+        MeshName: steering_wheel
+        MeshUUID: 3828109597730884479
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 6269774312338737668
+    Uuid: 6269774312338737668
+    Name: chrome
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [0.295767784, 0.880993962, 4.04200697]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: chrome2
+        MeshName: chrome
+        MeshUUID: 15096209755161124281
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 5148640923136701910
+    Uuid: 5148640923136701910
+    Name: light_glass
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [0.00782585144, 0.37978673, 5.88364077]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: light_glass3
+        MeshName: light_glass
+        MeshUUID: 10108782466039008216
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 1236910614815031538
+    Uuid: 1236910614815031538
+    Name: wood_chairs
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [0.00424921513, 0.880856693, -3.22446895]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: wood_chairs4
+        MeshName: wood_chairs
+        MeshUUID: 14538212163818191891
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 5993902103652009268
+    Uuid: 5993902103652009268
+    Name: metal_part
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [-0.000319957733, 0.214585245, 0.0500710011]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: metal_part5
+        MeshName: metal_part
+        MeshUUID: 5027090565091448432
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 17855037146915172646
+    Uuid: 17855037146915172646
+    Name: red_lights
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [0.00289928913, -0.524002433, -5.44124794]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: red_lights6
+        MeshName: red_lights
+        MeshUUID: 17929340927484628947
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 16447430824635253205
+    Uuid: 16447430824635253205
+    Name: chairs
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [-0.00683051348, 0.21699971, 0.408576697]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: chairs7
+        MeshName: chairs
+        MeshUUID: 16238020499449722035
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 6675997413673124335
+    Uuid: 6675997413673124335
+    Name: glass
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [0.00143283606, 1.78511572, 1.97836232]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: glass8
+        MeshName: glass
+        MeshUUID: 16974139289609848591
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 508052579714777027
+    Uuid: 508052579714777027
+    Name: front_left_wheel
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [2.32491398, -1.68041992, 4.36478662]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: front_left_wheel9
+        MeshName: front_left_wheel
+        MeshUUID: 17291317939212867873
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 8339475397478001160
+    Uuid: 8339475397478001160
+    Name: front_right_wheel
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [-2.32370996, -1.68041992, 4.36478853]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: front_right_wheel10
+        MeshName: front_right_wheel
+        MeshUUID: 10012319373927036038
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 1569397754883137287
+    Uuid: 1569397754883137287
+    Name: rear_left_wheel
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [2.32917118, -1.70378935, -3.10363436]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: rear_left_wheel11
+        MeshName: rear_left_wheel
+        MeshUUID: 15512740884295352119
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 7448915189456925587
+    Uuid: 7448915189456925587
+    Name: rear_right_wheel
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [-2.28337502, -1.70378935, -3.10363436]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: rear_right_wheel12
+        MeshName: rear_right_wheel
+        MeshUUID: 16667024723226124795
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 10867739181657136630
+    Uuid: 10867739181657136630
+    Name: reserve_wheel
+    ParentID: 15147845954858981784
+    Components:
+      TransformComponent:
+        Position: [2.476331, 0.0792412758, 1.22274423]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: reserve_wheel13
+        MeshName: reserve_wheel
+        MeshUUID: 11108054796808737249
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

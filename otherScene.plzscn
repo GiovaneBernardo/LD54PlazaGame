@@ -1,0 +1,297 @@
+Scene:
+  Uuid: 17660277074985280564
+  Name: Scene
+Entities:
+  - Entity: 11887459833199358228
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 11887459833199358228
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 11080394027496250384
+  - Entity: 17660277074985280564
+    Name: Scene
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+  - Entity: 4260822802123328745
+    Name: UN Truck 1
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [111.403313, -56.3565712, 5.33654547]
+        Rotation: [-1.57079625, -0, 0]
+        Scale: [1, 0.99999994, 0.99999994]
+      ColliderComponent:
+        Uuid: 4260822802123328745
+        Shapes:
+          - Shape: 6
+            MeshUuid: 3954501100550092944
+          - Shape: 6
+            MeshUuid: 11825250675381980317
+          - Shape: 6
+            MeshUuid: 12552524691749542905
+          - Shape: 6
+            MeshUuid: 15064658368716095826
+          - Shape: 6
+            MeshUuid: 10280124502907991581
+          - Shape: 6
+            MeshUuid: 16773706432872379724
+          - Shape: 6
+            MeshUuid: 11080394027496250384
+      RigidBodyComponent:
+        Uuid: 4260822802123328745
+        DynamicLockFlags: 0
+  - Entity: 3695479198654848884
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 3695479198654848884
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 3954501100550092944
+  - Entity: 5087989754057818600
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 5087989754057818600
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 11825250675381980317
+  - Entity: 11602722141394079366
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 11602722141394079366
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 12552524691749542905
+  - Entity: 18224450038828260946
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 18224450038828260946
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 15064658368716095826
+  - Entity: 12568023076020924046
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 12568023076020924046
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 10280124502907991581
+  - Entity: 15948419948974558260
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 15948419948974558260
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 16773706432872379724
+  - Entity: 3741762540604567086
+    Name: Cube
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [111.619156, -53.57621, 6.48587608]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 3741762540604567086
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 1
+      ColliderComponent:
+        Uuid: 3741762540604567086
+        Shapes:
+          - Shape: 0
+            MeshUuid: 0
+      RigidBodyComponent:
+        Uuid: 3741762540604567086
+        DynamicLockFlags: 0
+  - Entity: 16754351739655862827
+    Name: terrain
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, -135.134995, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+  - Entity: 16025114672275128594
+    Name: Plane
+    ParentID: 16754351739655862827
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 16025114672275128594
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 6818722901623261169
+      ColliderComponent:
+        Uuid: 16025114672275128594
+        Shapes:
+          - Shape: 5
+            MeshUuid: 6818722901623261169
+  - Entity: 12720296357027773796
+    Name: Player
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 12720296357027773796
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 1
+      ColliderComponent:
+        Uuid: 12720296357027773796
+        Shapes:
+          - Shape: 0
+            MeshUuid: 0
+      RigidBodyComponent:
+        Uuid: 12720296357027773796
+        DynamicLockFlags: 56
+      CsScriptComponent:
+        Uuid: 12720296357027773796
+        Scripts:
+          - Name: PlayerController
+            Path: \Scripts\PlayerController.cs
+            Uuid: 12720296357027773796
+  - Entity: 9747464018219434252
+    Name: Camera
+    ParentID: 12720296357027773796
+    Components:
+      TransformComponent:
+        Position: [0, 1.45904541, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      CameraComponent:
+        Uuid: 9747464018219434252
+        Position: [0, 1.45904541, 0]
+        FOV: 60
+        FarPlane: 15000
+        NearPlane: 0.00999999978
+        AspectRatio: 1
+        MainCamera: false
+        Pitch: 0
+        Yaw: -90
+Models:
+  - Model: 6752034785828781666
+    Name: terrain
+    ModelPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models\terrain\terrain.plzmod
+    ObjectPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models/terrain/sources\terrain.obj
+    TexturesPath:
+      []
+  - Model: 11156413794880632594
+    Name: UN Truck 1
+    ModelPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\UN Truck 1\UN Truck 1.plzmod
+    ObjectPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game/UN Truck 1/sources\UN Truck 1.fbx
+    TexturesPath:
+      []
+Meshes:
+  - Mesh: 2581417604012743083
+    MeshId: 16773706432872379724
+    Name: Ranchero truckedit6
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 9943044036828379575
+    MeshId: 11080394027496250384
+    Name: Ranchero truckedit4
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 16394056533055649493
+    MeshId: 3954501100550092944
+    Name: Ranchero truckedit0
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 8553337765146564504
+    MeshId: 11825250675381980317
+    Name: Ranchero truckedit5
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 3331892026470670169
+    MeshId: 12552524691749542905
+    Name: Ranchero truckedit3
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 14668803323681176266
+    MeshId: 15064658368716095826
+    Name: Ranchero truckedit1
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 13140523041269569559
+    MeshId: 10280124502907991581
+    Name: Ranchero truckedit2
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 6439568902402781670
+    MeshId: 1
+    Name: ""
+    TemporaryMesh: false
+    ModelUuid: 0
+  - Mesh: 2159241909725019310
+    MeshId: 6818722901623261169
+    Name: Plane0
+    TemporaryMesh: false
+    ModelUuid: 6752034785828781666
+  - Mesh: 6439568902402781670
+    MeshId: 1
+    Name: ""
+    TemporaryMesh: false
+    ModelUuid: 0

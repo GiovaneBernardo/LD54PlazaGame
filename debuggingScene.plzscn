@@ -1,0 +1,56 @@
+Scene:
+  Uuid: 204258547801623375
+  Name: Scene
+Entities:
+  - Entity: 204258547801623375
+    Name: Scene
+    ParentID: 0
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+  - Entity: 14876984397522870251
+    Name: Boxe
+    ParentID: 204258547801623375
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 14876984397522870251
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 1
+      ColliderComponent:
+        Uuid: 14876984397522870251
+        Shapes:
+          - Shape: 0
+            MeshUuid: 0
+      CsScriptComponent:
+        Uuid: 14876984397522870251
+        Scripts:
+          - Name: BoxManager
+            Path: \Scripts\BoxManager.cs
+            Uuid: 14876984397522870251
+Models:
+  - Model: 6752034785828781666
+    Name: terrain
+    ModelPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models\terrain\terrain.plzmod
+    ObjectPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models/terrain/sources\terrain.obj
+    TexturesPath:
+      []
+  - Model: 11156413794880632594
+    Name: UN Truck 1
+    ModelPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\UN Truck 1\UN Truck 1.plzmod
+    ObjectPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game/UN Truck 1/sources\UN Truck 1.fbx
+    TexturesPath:
+      []
+Meshes:
+  - Mesh: 14216974237734881903
+    MeshId: 1
+    Name: ""
+    TemporaryMesh: false
+    ModelUuid: 0

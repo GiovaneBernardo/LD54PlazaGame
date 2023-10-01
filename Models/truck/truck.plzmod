@@ -1,0 +1,57 @@
+Model: truck
+ModelFilePath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models/truck/sources\truck.obj
+ModelUuid: 9063009912088548515
+UseTangent: true
+MainObject:
+  - Entity: 8933307261935209216
+    Uuid: 8933307261935209216
+    Name: truck
+    ParentID: 8087256409539085487
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 13908797182150533519
+    Uuid: 13908797182150533519
+    Name: Cube
+    ParentID: 8933307261935209216
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 16240276867449623013
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 2200098532625906938
+    Uuid: 2200098532625906938
+    Name: Cube
+    ParentID: 8933307261935209216
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Wheel1
+        MeshName: Cube
+        MeshUUID: 5891796891543864513
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

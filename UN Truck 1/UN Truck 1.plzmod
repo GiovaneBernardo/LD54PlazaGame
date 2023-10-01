@@ -1,0 +1,163 @@
+Model: UN Truck 1
+ModelFilePath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game/UN Truck 1/sources\UN Truck 1.fbx
+ModelUuid: 11156413794880632594
+ModelScale: 10.0
+UseTangent: false
+MainObject:
+  - Entity: 15066439894427244359
+    Uuid: 15066439894427244359
+    Name: UN Truck 1
+    ParentID: 17154322847474315310
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 2275622299699934786
+    Uuid: 2275622299699934786
+    Name: Ranchero truckedit
+    ParentID: 15066439894427244359
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Ranchero truckedit0
+        MeshName: Ranchero truckedit
+        MeshUUID: 9867171528592827202
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 3232190492385921926
+    Uuid: 3232190492385921926
+    Name: Ranchero truckedit
+    ParentID: 15066439894427244359
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Ranchero truckedit1
+        MeshName: Ranchero truckedit
+        MeshUUID: 8312587017476411795
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 6867282566980237697
+    Uuid: 6867282566980237697
+    Name: Ranchero truckedit
+    ParentID: 15066439894427244359
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Ranchero truckedit2
+        MeshName: Ranchero truckedit
+        MeshUUID: 2908145514212525085
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 14715739407970355032
+    Uuid: 14715739407970355032
+    Name: Ranchero truckedit
+    ParentID: 15066439894427244359
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Ranchero truckedit3
+        MeshName: Ranchero truckedit
+        MeshUUID: 12027087712404153775
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 1478624308775472056
+    Uuid: 1478624308775472056
+    Name: Ranchero truckedit
+    ParentID: 15066439894427244359
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Ranchero truckedit4
+        MeshName: Ranchero truckedit
+        MeshUUID: 12567938851107447043
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 2629584161134990381
+    Uuid: 2629584161134990381
+    Name: Ranchero truckedit
+    ParentID: 15066439894427244359
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Ranchero truckedit5
+        MeshName: Ranchero truckedit
+        MeshUUID: 16929517493966536279
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 13898202921834214020
+    Uuid: 13898202921834214020
+    Name: Ranchero truckedit
+    ParentID: 15066439894427244359
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Ranchero truckedit6
+        MeshName: Ranchero truckedit
+        MeshUUID: 11934037414934591241
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
