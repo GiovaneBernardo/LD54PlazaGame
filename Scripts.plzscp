@@ -1,10 +1,12 @@
 Script Manager Path: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Scripts.plzscp
 Scripts:
   - Script: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Intermediates\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
-    Date: 20231001050542.1128904
+    Date: 20231001195658.6010645
   - Script: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Scripts\BoxManager.cs
-    Date: 20231001050542.1139265
+    Date: 20231001195658.6022504
   - Script: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Scripts\BoxScript.cs
-    Date: 20231001050542.1139507
+    Date: 20231001195658.5888013
+  - Script: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Scripts\PlayerController.cs
+    Date: 20231001195658.5869490
   - Script: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Scripts\Unnamed.cs
-    Date: 20231001050847.2848381
+    Date: 20231001200621.9612434

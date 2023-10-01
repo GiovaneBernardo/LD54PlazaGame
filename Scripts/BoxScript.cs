@@ -12,6 +12,7 @@ using static Plaza.Input;
 public class BoxScript : Entity
 {
     Entity player;
+    bool beingHold = false;
     public void OnStart()
     {
         player = FindEntityByName("Player");
@@ -21,9 +22,17 @@ public class BoxScript : Entity
     {
         if (player != null)
         {
-            if (Vector3.Distance(player.GetComponent<Transform>().Translation, this.GetComponent<Transform>().Translation) < 10.0f && Input.IsKeyDown(KeyCode.F))
+            if (!beingHold && Vector3.Distance(player.GetComponent<Transform>().Translation, this.GetComponent<Transform>().Translation) < 10.0f && Input.IsKeyDown(KeyCode.F))
             {
-                Console.WriteLine("Pressing F close to box");
+                beingHold = true;
+                parent = player;
+                GetComponent<Transform>().Translation = new Vector3(1.0f, 0.5f, 0.3f);
+            }
+
+            if(beingHold && Input.IsKeyDown(KeyCode.G)){
+                beingHold = false;
+                parent = new Entity(0);
+                GetComponent<Transform>().Translation = player.GetComponent<Transform>().Translation + new Vector3(1.0f, 0.5f, 0.3f);
             }
         }
     }
