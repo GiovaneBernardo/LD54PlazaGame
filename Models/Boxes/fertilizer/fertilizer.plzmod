@@ -1,0 +1,37 @@
+Model: fertilizer
+ModelFilePath: Models\Boxes/fertilizer/sources\fertilizer.obj
+ModelUuid: 13264095418386199658
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 2366357397895912067
+    Uuid: 2366357397895912067
+    Name: fertilizer
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 8852491033572809506
+    Uuid: 8852491033572809506
+    Name: Cube
+    ParentID: 2366357397895912067
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 11154875849814903180
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

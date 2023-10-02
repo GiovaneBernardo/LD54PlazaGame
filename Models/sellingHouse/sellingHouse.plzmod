@@ -1,0 +1,58 @@
+Model: sellingHouse
+ModelFilePath: Models/sellingHouse/sources\sellingHouse.obj
+ModelUuid: 302091143732781551
+ModelScale: 1
+UseTangent: true
+MainObject:
+  - Entity: 5136852017145243879
+    Uuid: 5136852017145243879
+    Name: sellingHouse
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 6407937807742302497
+    Uuid: 6407937807742302497
+    Name: Cube
+    ParentID: 5136852017145243879
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 520566335433835512
+        MaterialComponent:
+          texture_diffuse:
+            Path: Untitled.png
+            Rgba: [.inf, .inf, .inf]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
+  - Entity: 9556841612094897920
+    Uuid: 9556841612094897920
+    Name: Cube.001
+    ParentID: 5136852017145243879
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube.0011
+        MeshName: Cube.001
+        MeshUUID: 16692045437370204991
+        MaterialComponent:
+          texture_diffuse:
+            Path: color.png
+            Rgba: [.inf, .inf, .inf]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

@@ -1,0 +1,37 @@
+Model: guns
+ModelFilePath: Models\Boxes/guns/sources\guns.obj
+ModelUuid: 17951816971632656071
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 4738896969154083828
+    Uuid: 4738896969154083828
+    Name: guns
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 9787565059022277641
+    Uuid: 9787565059022277641
+    Name: Cube
+    ParentID: 4738896969154083828
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 7965130138699082206
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

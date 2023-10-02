@@ -1,0 +1,37 @@
+Model: diamond
+ModelFilePath: Models\Boxes/diamond/sources\diamond.obj
+ModelUuid: 13055677395878934935
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 17997749960041897883
+    Uuid: 17997749960041897883
+    Name: diamond
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 16493397381870140379
+    Uuid: 16493397381870140379
+    Name: Cube
+    ParentID: 17997749960041897883
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 6257946890642050259
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

@@ -1,0 +1,37 @@
+Model: gold
+ModelFilePath: Models\Boxes/gold/sources\gold.obj
+ModelUuid: 12811376191261861786
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 9259288599050186918
+    Uuid: 9259288599050186918
+    Name: gold
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 7052416668869852728
+    Uuid: 7052416668869852728
+    Name: Cube
+    ParentID: 9259288599050186918
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 1828774138610394575
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

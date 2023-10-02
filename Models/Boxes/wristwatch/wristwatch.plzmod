@@ -1,0 +1,37 @@
+Model: wristwatch
+ModelFilePath: Models\Boxes/wristwatch/sources\wristwatch.obj
+ModelUuid: 7357865882526545822
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 17560226724649856934
+    Uuid: 17560226724649856934
+    Name: wristwatch
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 15612660395934199434
+    Uuid: 15612660395934199434
+    Name: Cube
+    ParentID: 17560226724649856934
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 14255902683364408210
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

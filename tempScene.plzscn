@@ -29,9 +29,9 @@ Entities:
     ParentID: 17660277074985280564
     Components:
       TransformComponent:
-        Position: [110.920944, -58.4154854, 5.22376251]
-        Rotation: [-1.65223837, -0.0384121872, 0.0957008079]
-        Scale: [1, 0.99999994, 0.99999994]
+        Position: [110.920944, -60.6767159, 5.22376251]
+        Rotation: [-1.57079625, -0, 0]
+        Scale: [1, 0.999999881, 0.999999881]
       ColliderComponent:
         Uuid: 4260822802123328745
         Shapes:
@@ -51,7 +51,13 @@ Entities:
             MeshUuid: 11080394027496250384
       RigidBodyComponent:
         Uuid: 4260822802123328745
-        DynamicLockFlags: 0
+        DynamicLockFlags: 56
+      CsScriptComponent:
+        Uuid: 4260822802123328745
+        Scripts:
+          - Name: CarScript
+            Path: \Scripts\CarScript.cs
+            Uuid: 4260822802123328745
   - Entity: 3695479198654848884
     Name: Ranchero truckedit
     ParentID: 4260822802123328745
@@ -66,34 +72,6 @@ Entities:
         MeshName: ""
         Instanced: true
         MeshId: 3954501100550092944
-  - Entity: 5087989754057818600
-    Name: Ranchero truckedit
-    ParentID: 4260822802123328745
-    Components:
-      TransformComponent:
-        Position: [0, 0, 0]
-        Rotation: [0, 0, 0]
-        Scale: [1, 1, 1]
-      MeshRendererComponent:
-        Uuid: 5087989754057818600
-        AiMeshName: ""
-        MeshName: ""
-        Instanced: true
-        MeshId: 11825250675381980317
-  - Entity: 11602722141394079366
-    Name: Ranchero truckedit
-    ParentID: 4260822802123328745
-    Components:
-      TransformComponent:
-        Position: [0, 0, 0]
-        Rotation: [0, 0, 0]
-        Scale: [1, 1, 1]
-      MeshRendererComponent:
-        Uuid: 11602722141394079366
-        AiMeshName: ""
-        MeshName: ""
-        Instanced: true
-        MeshId: 12552524691749542905
   - Entity: 18224450038828260946
     Name: Ranchero truckedit
     ParentID: 4260822802123328745
@@ -108,6 +86,76 @@ Entities:
         MeshName: ""
         Instanced: true
         MeshId: 15064658368716095826
+  - Entity: 11602722141394079366
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 11602722141394079366
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 12552524691749542905
+  - Entity: 7232983581291603285
+    Name: gold
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 9.47052002, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 7232983581291603285
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 7232983581291603285
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 7232983581291603285
+  - Entity: 5087989754057818600
+    Name: Ranchero truckedit
+    ParentID: 4260822802123328745
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 5087989754057818600
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 11825250675381980317
+  - Entity: 13454042010548683019
+    Name: meatBox
+    ParentID: 12557469374273669108
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 13454042010548683019
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 746119833466847511
+      ColliderComponent:
+        Uuid: 13454042010548683019
+        Shapes:
+          - Shape: 5
+            MeshUuid: 746119833466847511
+      CsScriptComponent:
+        Uuid: 13454042010548683019
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 13454042010548683019
   - Entity: 12568023076020924046
     Name: Ranchero truckedit
     ParentID: 4260822802123328745
@@ -136,34 +184,37 @@ Entities:
         MeshName: ""
         Instanced: true
         MeshId: 16773706432872379724
-  - Entity: 3741762540604567086
-    Name: Cube
-    ParentID: 17660277074985280564
+  - Entity: 15555774459374932407
+    Name: jewelryBox
+    ParentID: 9049732904363993835
     Components:
       TransformComponent:
-        Position: [109.182037, -59.6288948, 11.0763226]
-        Rotation: [1.69955754, 0.0431635678, -3.1266284]
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
         Scale: [1, 1, 1]
       MeshRendererComponent:
-        Uuid: 3741762540604567086
+        Uuid: 15555774459374932407
         AiMeshName: ""
         MeshName: ""
         Instanced: true
-        MeshId: 1
+        MeshId: 11597030052785413536
       ColliderComponent:
-        Uuid: 3741762540604567086
+        Uuid: 15555774459374932407
         Shapes:
-          - Shape: 0
-            MeshUuid: 0
-      RigidBodyComponent:
-        Uuid: 3741762540604567086
-        DynamicLockFlags: 0
+          - Shape: 5
+            MeshUuid: 11597030052785413536
+      CsScriptComponent:
+        Uuid: 15555774459374932407
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 15555774459374932407
   - Entity: 16754351739655862827
     Name: terrain
     ParentID: 17660277074985280564
     Components:
       TransformComponent:
-        Position: [0, -135.134995, 0]
+        Position: [0, -192.134995, 0]
         Rotation: [0, -0, 0]
         Scale: [1, 1, 1]
   - Entity: 16025114672275128594
@@ -191,7 +242,7 @@ Entities:
     Components:
       TransformComponent:
         Position: [106.140907, -60.7281189, -1.37297034]
-        Rotation: [-6.28318548, 2.87803626, -6.28318548]
+        Rotation: [0, 0, 0]
         Scale: [1, 1, 1]
       MeshRendererComponent:
         Uuid: 12720296357027773796
@@ -219,11 +270,11 @@ Entities:
     Components:
       TransformComponent:
         Position: [0, 1.45904541, 0]
-        Rotation: [0, 0, -1.15191388]
+        Rotation: [0, 0, 0]
         Scale: [1, 1, 1]
       CameraComponent:
         Uuid: 9747464018219434252
-        Position: [106.802864, -59.2449608, -1.33335471]
+        Position: [106.140907, -59.2690735, -1.3729701]
         FOV: 60
         FarPlane: 15000
         NearPlane: 0.00999999978
@@ -231,92 +282,851 @@ Entities:
         MainCamera: false
         Pitch: 0
         Yaw: -90
-  - Entity: 726390825149740923
-    Name: Winebox
+  - Entity: 7519112752771522870
+    Name: diamond
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 3.79467773, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 7519112752771522870
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 7519112752771522870
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 7519112752771522870
+  - Entity: 6158380665287548569
+    Name: ""
     ParentID: 17660277074985280564
     Components:
       TransformComponent:
-        Position: [108.938637, -59.3798676, 0]
+        Position: [-9.73945427, 0, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+  - Entity: 16728384086224982091
+    Name: box1
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [107.806938, -94.5600586, 4.28655624]
         Rotation: [0, -0, 0]
         Scale: [1, 1, 1]
       MeshRendererComponent:
-        Uuid: 726390825149740923
+        Uuid: 16728384086224982091
         AiMeshName: ""
         MeshName: ""
         Instanced: true
         MeshId: 1
       CsScriptComponent:
-        Uuid: 726390825149740923
+        Uuid: 16728384086224982091
         Scripts:
           - Name: BoxScript
             Path: \Scripts\BoxScript.cs
-            Uuid: 726390825149740923
+            Uuid: 16728384086224982091
+  - Entity: 5080091802050318113
+    Name: SellingPoint
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [118.384621, -64.6414795, -159.294403]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 5080091802050318113
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 1
+      ColliderComponent:
+        Uuid: 5080091802050318113
+        Shapes:
+          - Shape: 0
+            MeshUuid: 0
+  - Entity: 3463794200576881771
+    Name: BoxManager
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [17102.6758, 70.491127, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 3463794200576881771
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 1
+      CsScriptComponent:
+        Uuid: 3463794200576881771
+        Scripts:
+          - Name: BoxManager
+            Path: \Scripts\BoxManager.cs
+            Uuid: 3463794200576881771
+  - Entity: 6558470821917952882
+    Name: rubyBox
+    ParentID: 15173839792521978465
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 6558470821917952882
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 518732611632174664
+      ColliderComponent:
+        Uuid: 6558470821917952882
+        Shapes:
+          - Shape: 5
+            MeshUuid: 518732611632174664
+      CsScriptComponent:
+        Uuid: 6558470821917952882
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 6558470821917952882
+  - Entity: 10156308038767708401
+    Name: Boxe
+    ParentID: 6427042405825756671
+    Components:
+      TransformComponent:
+        Position: [-2.53442383, 0, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 10156308038767708401
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 1
+      ColliderComponent:
+        Uuid: 10156308038767708401
+        Shapes:
+          - Shape: 0
+            MeshUuid: 0
+      RigidBodyComponent:
+        Uuid: 10156308038767708401
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 10156308038767708401
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 10156308038767708401
+  - Entity: 6427042405825756671
+    Name: BoxesContainer
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+  - Entity: 16835443720656441036
+    Name: Plane
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, -3.16503906, 0]
+        Rotation: [0, -0, 0]
+        Scale: [10, 0.0500000007, 10]
+      MeshRendererComponent:
+        Uuid: 16835443720656441036
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 3
+      ColliderComponent:
+        Uuid: 16835443720656441036
+        Shapes:
+          - Shape: 3
+            MeshUuid: 0
+  - Entity: 15111444506844163789
+    Name: InstancesContainer
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [5000, 1000, 5000]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+  - Entity: 17556526926617702359
+    Name: banana
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 1.17633057, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 17556526926617702359
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 17556526926617702359
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 17556526926617702359
+  - Entity: 2507484434180773730
+    Name: goldBox
+    ParentID: 7232983581291603285
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 2507484434180773730
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 1499134494459279338
+      ColliderComponent:
+        Uuid: 2507484434180773730
+        Shapes:
+          - Shape: 5
+            MeshUuid: 1499134494459279338
+      CsScriptComponent:
+        Uuid: 2507484434180773730
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 2507484434180773730
+  - Entity: 13861830475396977541
+    Name: bananaBox
+    ParentID: 17556526926617702359
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 13861830475396977541
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 884101584699323359
+      ColliderComponent:
+        Uuid: 13861830475396977541
+        Shapes:
+          - Shape: 5
+            MeshUuid: 884101584699323359
+      RigidBodyComponent:
+        Uuid: 13861830475396977541
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 13861830475396977541
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 13861830475396977541
+  - Entity: 3756920010726142166
+    Name: wine
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 27.7047119, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 3756920010726142166
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 3756920010726142166
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 3756920010726142166
+  - Entity: 229047481265091604
+    Name: potatoBox
+    ParentID: 2103698395919903010
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 229047481265091604
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 683180619055442005
+      ColliderComponent:
+        Uuid: 229047481265091604
+        Shapes:
+          - Shape: 5
+            MeshUuid: 683180619055442005
+      CsScriptComponent:
+        Uuid: 229047481265091604
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 229047481265091604
+  - Entity: 1905879983500347966
+    Name: diamondBox
+    ParentID: 7519112752771522870
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 1905879983500347966
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 9770485851713079294
+      ColliderComponent:
+        Uuid: 1905879983500347966
+        Shapes:
+          - Shape: 5
+            MeshUuid: 9770485851713079294
+      CsScriptComponent:
+        Uuid: 1905879983500347966
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 1905879983500347966
+  - Entity: 13911953359358323758
+    Name: fertilizer
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 6.2800293, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 13911953359358323758
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 13911953359358323758
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 13911953359358323758
+  - Entity: 12741507103386563110
+    Name: fertilizerBox
+    ParentID: 13911953359358323758
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 12741507103386563110
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 13489668754704237716
+      ColliderComponent:
+        Uuid: 12741507103386563110
+        Shapes:
+          - Shape: 5
+            MeshUuid: 13489668754704237716
+      CsScriptComponent:
+        Uuid: 12741507103386563110
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 12741507103386563110
+  - Entity: 17965330516933089766
+    Name: guns
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 12.5444946, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 17965330516933089766
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 17965330516933089766
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 17965330516933089766
+  - Entity: 10636804249688391532
+    Name: gunsBox
+    ParentID: 17965330516933089766
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 10636804249688391532
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 14829736195999977689
+      ColliderComponent:
+        Uuid: 10636804249688391532
+        Shapes:
+          - Shape: 5
+            MeshUuid: 14829736195999977689
+      CsScriptComponent:
+        Uuid: 10636804249688391532
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 10636804249688391532
+  - Entity: 9049732904363993835
+    Name: jewelry
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 15.2503052, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 9049732904363993835
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 9049732904363993835
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 9049732904363993835
+  - Entity: 5399952630405955885
+    Name: Cube
+    ParentID: 10902381737810054705
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 5399952630405955885
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 14772961176710079455
+      ColliderComponent:
+        Uuid: 5399952630405955885
+        Shapes:
+          - Shape: 5
+            MeshUuid: 14772961176710079455
+  - Entity: 12557469374273669108
+    Name: meat
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 17.6325684, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 12557469374273669108
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 12557469374273669108
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 12557469374273669108
+  - Entity: 194826748323542653
+    Name: wristwatchBox
+    ParentID: 11838774798898413852
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 194826748323542653
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 13994623269342184552
+      ColliderComponent:
+        Uuid: 194826748323542653
+        Shapes:
+          - Shape: 5
+            MeshUuid: 13994623269342184552
+      CsScriptComponent:
+        Uuid: 194826748323542653
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 194826748323542653
+  - Entity: 13868384953353693794
+    Name: orange
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 19.8442383, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 13868384953353693794
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 13868384953353693794
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 13868384953353693794
+  - Entity: 17553021751583303054
+    Name: orangeBox
+    ParentID: 13868384953353693794
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 17553021751583303054
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 5574122729018505888
+      ColliderComponent:
+        Uuid: 17553021751583303054
+        Shapes:
+          - Shape: 5
+            MeshUuid: 5574122729018505888
+      CsScriptComponent:
+        Uuid: 17553021751583303054
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 17553021751583303054
+  - Entity: 15173839792521978465
+    Name: ruby
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 25.1715088, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 15173839792521978465
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 15173839792521978465
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 15173839792521978465
+  - Entity: 2103698395919903010
+    Name: potato
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 22.4572144, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 2103698395919903010
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 2103698395919903010
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 2103698395919903010
+  - Entity: 10242989376288514908
+    Name: wineBox
+    ParentID: 3756920010726142166
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 10242989376288514908
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 6193085560158609976
+      ColliderComponent:
+        Uuid: 10242989376288514908
+        Shapes:
+          - Shape: 5
+            MeshUuid: 6193085560158609976
+      CsScriptComponent:
+        Uuid: 10242989376288514908
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 10242989376288514908
+  - Entity: 11838774798898413852
+    Name: wristwatch
+    ParentID: 15111444506844163789
+    Components:
+      TransformComponent:
+        Position: [0, 30.0163574, 0]
+        Rotation: [0, -0, 0]
+        Scale: [1, 1, 1]
+      RigidBodyComponent:
+        Uuid: 11838774798898413852
+        DynamicLockFlags: 0
+      CsScriptComponent:
+        Uuid: 11838774798898413852
+        Scripts:
+          - Name: BoxScript
+            Path: \Scripts\BoxScript.cs
+            Uuid: 11838774798898413852
+  - Entity: 10902381737810054705
+    Name: sellingHouse
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [116.761398, -68.9327164, -160.736115]
+        Rotation: [-3.1415925, 8.74227766e-08, -3.1415925]
+        Scale: [1, 1, 1]
+  - Entity: 4823710520390951726
+    Name: Cube.001
+    ParentID: 10902381737810054705
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshRendererComponent:
+        Uuid: 4823710520390951726
+        AiMeshName: ""
+        MeshName: ""
+        Instanced: true
+        MeshId: 10053895574771343118
+      ColliderComponent:
+        Uuid: 4823710520390951726
+        Shapes:
+          - Shape: 5
+            MeshUuid: 10053895574771343118
 Models:
-  - Model: 6752034785828781666
-    Name: terrain
-    ModelPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models\terrain\terrain.plzmod
-    ObjectPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models/terrain/sources\terrain.obj
-    TexturesPath:
-      []
   - Model: 11156413794880632594
     Name: UN Truck 1
-    ModelPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\UN Truck 1\UN Truck 1.plzmod
+    ModelPath: UN Truck 1\UN Truck 1.plzmod
     ObjectPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game/UN Truck 1/sources\UN Truck 1.fbx
     TexturesPath:
       []
+  - Model: 302091143732781551
+    Name: sellingHouse
+    ModelPath: Models\sellingHouse\sellingHouse.plzmod
+    ObjectPath: Models/sellingHouse/sources\sellingHouse.obj
+    TexturesPath:
+      []
+  - Model: 4818986600598943333
+    Name: potato
+    ModelPath: Models\Boxes\potato\potato.plzmod
+    ObjectPath: Models\Boxes/potato/sources\potato.obj
+    TexturesPath:
+      []
+  - Model: 2080149790692493347
+    Name: meat
+    ModelPath: Models\Boxes\meat\meat.plzmod
+    ObjectPath: Models\Boxes/meat/sources\meat.obj
+    TexturesPath:
+      []
+  - Model: 17951816971632656071
+    Name: guns
+    ModelPath: Models\Boxes\guns\guns.plzmod
+    ObjectPath: Models\Boxes/guns/sources\guns.obj
+    TexturesPath:
+      []
+  - Model: 2649941439640489374
+    Name: ruby
+    ModelPath: Models\Boxes\ruby\ruby.plzmod
+    ObjectPath: Models\Boxes/ruby/sources\ruby.obj
+    TexturesPath:
+      []
+  - Model: 2144236728898962778
+    Name: orange
+    ModelPath: Models\Boxes\orange\orange.plzmod
+    ObjectPath: Models\Boxes/orange/sources\orange.obj
+    TexturesPath:
+      []
+  - Model: 6752034785828781666
+    Name: terrain
+    ModelPath: Models\terrain\terrain.plzmod
+    ObjectPath: Models/terrain/sources\terrain.obj
+    TexturesPath:
+      []
+  - Model: 14724185766933965159
+    Name: banana
+    ModelPath: Models\Boxes\banana\banana.plzmod
+    ObjectPath: Models\Boxes/banana/sources\banana.obj
+    TexturesPath:
+      []
+  - Model: 7357865882526545822
+    Name: wristwatch
+    ModelPath: Models\Boxes\wristwatch\wristwatch.plzmod
+    ObjectPath: Models\Boxes/wristwatch/sources\wristwatch.obj
+    TexturesPath:
+      []
+  - Model: 13264095418386199658
+    Name: fertilizer
+    ModelPath: Models\Boxes\fertilizer\fertilizer.plzmod
+    ObjectPath: Models\Boxes/fertilizer/sources\fertilizer.obj
+    TexturesPath:
+      []
+  - Model: 12811376191261861786
+    Name: gold
+    ModelPath: Models\Boxes\gold\gold.plzmod
+    ObjectPath: Models\Boxes/gold/sources\gold.obj
+    TexturesPath:
+      []
+  - Model: 13055677395878934935
+    Name: diamond
+    ModelPath: Models\Boxes\diamond\diamond.plzmod
+    ObjectPath: Models\Boxes/diamond/sources\diamond.obj
+    TexturesPath:
+      []
+  - Model: 13530823363398175804
+    Name: jewelry
+    ModelPath: Models\Boxes\jewelry\jewelry.plzmod
+    ObjectPath: Models\Boxes/jewelry/sources\jewelry.obj
+    TexturesPath:
+      []
+  - Model: 18311446955109263957
+    Name: wine
+    ModelPath: Models\Boxes\wine\wine.plzmod
+    ObjectPath: Models\Boxes/wine/sources\wine.obj
+    TexturesPath:
+      []
 Meshes:
-  - Mesh: 1286904129787695219
+  - Mesh: 13435634185316111786
     MeshId: 16773706432872379724
     Name: Ranchero truckedit6
     TemporaryMesh: false
     ModelUuid: 11156413794880632594
-  - Mesh: 13893554722910442202
+  - Mesh: 12351322926704736505
     MeshId: 11080394027496250384
     Name: Ranchero truckedit4
     TemporaryMesh: false
     ModelUuid: 11156413794880632594
-  - Mesh: 1069991939998336805
+  - Mesh: 15211408536531759259
     MeshId: 3954501100550092944
     Name: Ranchero truckedit0
     TemporaryMesh: false
     ModelUuid: 11156413794880632594
-  - Mesh: 17832933165954620608
-    MeshId: 11825250675381980317
-    Name: Ranchero truckedit5
-    TemporaryMesh: false
-    ModelUuid: 11156413794880632594
-  - Mesh: 13050451116809697131
-    MeshId: 12552524691749542905
-    Name: Ranchero truckedit3
-    TemporaryMesh: false
-    ModelUuid: 11156413794880632594
-  - Mesh: 13189897227346020306
+  - Mesh: 388131852855893219
     MeshId: 15064658368716095826
     Name: Ranchero truckedit1
     TemporaryMesh: false
     ModelUuid: 11156413794880632594
-  - Mesh: 1742980118348946751
+  - Mesh: 12159596066685260759
+    MeshId: 12552524691749542905
+    Name: Ranchero truckedit3
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 5906605383953951197
+    MeshId: 11825250675381980317
+    Name: Ranchero truckedit5
+    TemporaryMesh: false
+    ModelUuid: 11156413794880632594
+  - Mesh: 8952951993960108938
     MeshId: 10280124502907991581
     Name: Ranchero truckedit2
     TemporaryMesh: false
     ModelUuid: 11156413794880632594
-  - Mesh: 11419936633963335374
-    MeshId: 1
-    Name: ""
+  - Mesh: 3131891924861173294
+    MeshId: 746119833466847511
+    Name: Cube0
     TemporaryMesh: false
-    ModelUuid: 0
-  - Mesh: 13394956717212114564
+    ModelUuid: 2080149790692493347
+  - Mesh: 2466184443662811564
+    MeshId: 11597030052785413536
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 13530823363398175804
+  - Mesh: 10234161426613392882
     MeshId: 6818722901623261169
-    Name: Plane0
+    Name: Cube0
     TemporaryMesh: false
     ModelUuid: 6752034785828781666
-  - Mesh: 11419936633963335374
+  - Mesh: 18097009993641574294
     MeshId: 1
     Name: ""
     TemporaryMesh: false
     ModelUuid: 0
-  - Mesh: 11419936633963335374
+  - Mesh: 18097009993641574294
     MeshId: 1
     Name: ""
     TemporaryMesh: false
     ModelUuid: 0
+  - Mesh: 18097009993641574294
+    MeshId: 1
+    Name: ""
+    TemporaryMesh: false
+    ModelUuid: 0
+  - Mesh: 18097009993641574294
+    MeshId: 1
+    Name: ""
+    TemporaryMesh: false
+    ModelUuid: 0
+  - Mesh: 17556128057817048383
+    MeshId: 518732611632174664
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 2649941439640489374
+  - Mesh: 18097009993641574294
+    MeshId: 1
+    Name: ""
+    TemporaryMesh: false
+    ModelUuid: 0
+  - Mesh: 10261675650905392375
+    MeshId: 3
+    Name: ""
+    TemporaryMesh: false
+    ModelUuid: 0
+  - Mesh: 9983868231978860008
+    MeshId: 1499134494459279338
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 12811376191261861786
+  - Mesh: 12131272898098466948
+    MeshId: 884101584699323359
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 14724185766933965159
+  - Mesh: 13619920069282498899
+    MeshId: 683180619055442005
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 4818986600598943333
+  - Mesh: 13602943459521284443
+    MeshId: 9770485851713079294
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 13055677395878934935
+  - Mesh: 6013779659057161400
+    MeshId: 13489668754704237716
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 13264095418386199658
+  - Mesh: 8164077837559039083
+    MeshId: 14829736195999977689
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 17951816971632656071
+  - Mesh: 15420720688717601973
+    MeshId: 14772961176710079455
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 302091143732781551
+  - Mesh: 14124926293275824653
+    MeshId: 13994623269342184552
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 7357865882526545822
+  - Mesh: 5054745844753524642
+    MeshId: 5574122729018505888
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 2144236728898962778
+  - Mesh: 10989060847155946814
+    MeshId: 6193085560158609976
+    Name: Cube0
+    TemporaryMesh: false
+    ModelUuid: 18311446955109263957
+  - Mesh: 17237819830671089899
+    MeshId: 10053895574771343118
+    Name: Cube.0011
+    TemporaryMesh: false
+    ModelUuid: 302091143732781551

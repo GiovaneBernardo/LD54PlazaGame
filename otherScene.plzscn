@@ -234,13 +234,13 @@ Entities:
 Models:
   - Model: 6752034785828781666
     Name: terrain
-    ModelPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models\terrain\terrain.plzmod
-    ObjectPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models/terrain/sources\terrain.obj
+    ModelPath: Models\terrain\terrain.plzmod
+    ObjectPath: Models/terrain/sources\terrain.obj
     TexturesPath:
       []
   - Model: 11156413794880632594
     Name: UN Truck 1
-    ModelPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\UN Truck 1\UN Truck 1.plzmod
+    ModelPath: UN Truck 1\UN Truck 1.plzmod
     ObjectPath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game/UN Truck 1/sources\UN Truck 1.fbx
     TexturesPath:
       []

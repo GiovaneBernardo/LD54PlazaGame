@@ -1,0 +1,37 @@
+Model: wine
+ModelFilePath: Models\Boxes/wine/sources\wine.obj
+ModelUuid: 18311446955109263957
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 16266230973244974803
+    Uuid: 16266230973244974803
+    Name: wine
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 214634501978356999
+    Uuid: 214634501978356999
+    Name: Cube
+    ParentID: 16266230973244974803
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 10157997713499870376
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

@@ -1,0 +1,37 @@
+Model: potato
+ModelFilePath: Models\Boxes/potato/sources\potato.obj
+ModelUuid: 4818986600598943333
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 9591656061633010296
+    Uuid: 9591656061633010296
+    Name: potato
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 10858569411118117933
+    Uuid: 10858569411118117933
+    Name: Cube
+    ParentID: 9591656061633010296
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 238452630598308122
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

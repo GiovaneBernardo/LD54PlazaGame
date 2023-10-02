@@ -1,5 +1,5 @@
 Model: truck
-ModelFilePath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models/truck/sources\truck.obj
+ModelFilePath: Models/truck/sources\truck.obj
 ModelUuid: 9063009912088548515
 UseTangent: true
 MainObject:

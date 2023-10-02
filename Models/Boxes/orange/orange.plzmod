@@ -1,0 +1,37 @@
+Model: orange
+ModelFilePath: Models\Boxes/orange/sources\orange.obj
+ModelUuid: 2144236728898962778
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 10501505857409716696
+    Uuid: 10501505857409716696
+    Name: orange
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 11274149354109409330
+    Uuid: 11274149354109409330
+    Name: Cube
+    ParentID: 10501505857409716696
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 3749677963013802819
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

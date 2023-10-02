@@ -1,0 +1,37 @@
+Model: banana
+ModelFilePath: Models/banana/sources\banana.obj
+ModelUuid: 13372343543928922363
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 15420323587160088474
+    Uuid: 15420323587160088474
+    Name: banana
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 16175459603072994129
+    Uuid: 16175459603072994129
+    Name: Cube
+    ParentID: 15420323587160088474
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 11397436456273962879
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

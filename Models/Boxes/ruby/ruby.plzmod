@@ -1,0 +1,37 @@
+Model: ruby
+ModelFilePath: Models\Boxes/ruby/sources\ruby.obj
+ModelUuid: 2649941439640489374
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 8733027155169982039
+    Uuid: 8733027155169982039
+    Name: ruby
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 11767567001517263164
+    Uuid: 11767567001517263164
+    Name: Cube
+    ParentID: 8733027155169982039
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 11593808864486645593
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3

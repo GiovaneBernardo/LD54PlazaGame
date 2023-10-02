@@ -1,0 +1,9 @@
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Binaries\LD54Game.dll
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Binaries\LD54Game.pdb
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Binaries\PlazaScriptCore.dll
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Binaries\PlazaScriptCore.pdb
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Intermediates\Debug\LD54Game.csproj.AssemblyReference.cache
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Intermediates\Debug\LD54Game.csproj.CoreCompileInputs.cache
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Intermediates\Debug\LD54Game.csproj.CopyComplete
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Intermediates\Debug\LD54Game.dll
+C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Intermediates\Debug\LD54Game.pdb

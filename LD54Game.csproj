@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Scripts\BoxManager.cs" />
     <Compile Include="Scripts\BoxScript.cs" />
+    <Compile Include="Scripts\CarScript.cs" />
     <Compile Include="Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>

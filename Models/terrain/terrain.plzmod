@@ -1,5 +1,5 @@
 Model: terrain
-ModelFilePath: C:\Users\Giovane\Desktop\Workspace\PlazaGames\LD54Game\Models/terrain/sources\terrain.obj
+ModelFilePath: Models/terrain/sources\terrain.obj
 ModelUuid: 6752034785828781666
 ModelScale: 0.01
 UseTangent: false
@@ -16,7 +16,7 @@ MainObject:
 GameObjects:
   - Entity: 6555432078736503392
     Uuid: 6555432078736503392
-    Name: Plane
+    Name: Cube
     ParentID: 9262028092737688104
     Components:
       TransformComponent:
@@ -24,8 +24,8 @@ GameObjects:
         Rotation: [0, 0, 0]
         Scale: [1, 1, 1]
       MeshComponent:
-        AiMeshName: Plane0
-        MeshName: Plane
+        AiMeshName: Cube0
+        MeshName: Cube
         MeshUUID: 5859222419839890412
         MaterialComponent:
           texture_diffuse:

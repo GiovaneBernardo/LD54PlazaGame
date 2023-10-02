@@ -1,0 +1,37 @@
+Model: jewelry
+ModelFilePath: Models\Boxes/jewelry/sources\jewelry.obj
+ModelUuid: 13530823363398175804
+ModelScale: 1
+UseTangent: false
+MainObject:
+  - Entity: 13369705939369177407
+    Uuid: 13369705939369177407
+    Name: jewelry
+    ParentID: 17660277074985280564
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+GameObjects:
+  - Entity: 2044170460438420414
+    Uuid: 2044170460438420414
+    Name: Cube
+    ParentID: 13369705939369177407
+    Components:
+      TransformComponent:
+        Position: [0, 0, 0]
+        Rotation: [0, 0, 0]
+        Scale: [1, 1, 1]
+      MeshComponent:
+        AiMeshName: Cube0
+        MeshName: Cube
+        MeshUUID: 5118333866911895878
+        MaterialComponent:
+          "":
+            Path: ""
+            Rgba: [0.699999988, 0.699999988, 0.699999988]
+          "":
+            Path: ""
+            Rgba: [0.5, 0.5, 0.5]
+          Shininess: 3
